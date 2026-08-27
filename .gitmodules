@@ -1,0 +1,6 @@
+[include]
+	path = .gitremotes
+	path = .borgconfig
+[submodule "borg"]
+	path = lib/borg
+	url = https://github.com/emacscollective/borg
