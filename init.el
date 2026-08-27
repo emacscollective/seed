@@ -16,6 +16,13 @@
 
 (borg--load-config (concat (user-real-login-name) ".el"))
 
+(use-package auto-compile
+  :config
+  (setq auto-compile-display-buffer nil)
+  (setq auto-compile-mode-line-counter t)
+  (setq auto-compile-source-recreate-deletes-dest t)
+  (setq auto-compile-toggle-deletes-nonlib-dest t))
+
 (use-package server
   :functions (server-running-p)
   :config
