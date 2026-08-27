@@ -7,3 +7,6 @@
 [submodule "borg"]
 	path = lib/borg
 	url = https://github.com/emacscollective/borg
+[submodule "compat"]
+	path = lib/compat
+	url = https://github.com/emacs-compat/compat
