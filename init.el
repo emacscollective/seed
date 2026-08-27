@@ -29,4 +29,10 @@
   (unless (server-running-p)
     (server-mode)))
 
+(use-package cond-let
+  :config (cond-let-fontify-mode))
+
+(use-package llama
+  :config (llama-fontify-mode))
+
 (borg-report-init-duration)
