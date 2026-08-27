@@ -7,12 +7,21 @@
 [submodule "borg"]
 	path = lib/borg
 	url = https://github.com/emacscollective/borg
+[submodule "closql"]
+	path = lib/closql
+	url = https://github.com/magit/closql
 [submodule "compat"]
 	path = lib/compat
 	url = https://github.com/emacs-compat/compat
 [submodule "cond-let"]
 	path = lib/cond-let
 	url = https://github.com/tarsius/cond-let
+[submodule "emacsql"]
+	path = lib/emacsql
+	url = https://github.com/magit/emacsql
+[submodule "epkg"]
+	path = lib/epkg
+	url = https://github.com/emacscollective/epkg
 [submodule "llama"]
 	path = lib/llama
 	url = https://github.com/tarsius/llama
