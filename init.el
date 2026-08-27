@@ -35,4 +35,14 @@
 (use-package llama
   :config (llama-fontify-mode))
 
+(use-package magit
+  :defer t
+  :init
+  (setq magit-define-global-key-bindings 'recommended)
+  :config
+  (magit-add-section-hook 'magit-status-sections-hook
+                          'magit-insert-modules
+                          'magit-insert-stashes
+                          'append))
+
 (borg-report-init-duration)

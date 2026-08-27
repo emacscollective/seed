@@ -22,6 +22,18 @@
 [submodule "epkg"]
 	path = lib/epkg
 	url = https://github.com/emacscollective/epkg
+[submodule "git-modes"]
+	path = lib/git-modes
+	url = https://github.com/magit/git-modes
 [submodule "llama"]
 	path = lib/llama
 	url = https://github.com/tarsius/llama
+[submodule "magit"]
+	path = lib/magit
+	url = https://github.com/magit/magit
+[submodule "transient"]
+	path = lib/transient
+	url = https://github.com/magit/transient
+[submodule "with-editor"]
+	path = lib/with-editor
+	url = https://github.com/magit/with-editor
